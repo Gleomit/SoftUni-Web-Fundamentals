@@ -1,0 +1,46 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+input[type="submit"]
+{
+    background: url(images/wordpress.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 360px;
+    border-color: transparent;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+
+div
+{
+    padding-left: 1px;
+}
+
+p
+{
+    font-size: 90%;
+    padding: 0px;
+}
+
+img
+{
+    width: 317px;
+}
+
+input[type="text"]
+{
+    height: 26px;
+}
+
+input[type="submit"]:hover
+{
+	border: 1px solid black;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+}
+
+aside {
+    margin-top: 33px;
+    margin-right: 60px;
+    width: 180px;
+    border-top: 1px solid #e9e9e9;
+}
+
+aside li {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+aside ul {
+    width: 150px;
+    padding: 0px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #225e9b;
+}

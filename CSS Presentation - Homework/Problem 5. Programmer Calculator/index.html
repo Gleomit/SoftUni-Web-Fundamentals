@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="mainContainer">
+        <header>
+            <img src="images/calculatorLogo.png">
+            <p>Calculator</p>
+            <ul>
+                <li><img src="images/minimize.png"></li>
+                <li><img src="images/maximaze.png"></li>
+                <li><img src="images/exit.png"></li>
+            </ul>
+        </header>
+        <nav>
+            <ul>
+                <li>View</li>
+                <li>Edit</li>
+                <li>Help</li>
+            </ul>
+        </nav>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                        <td colspan="10" id="resultScreen">0</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="otherFont">
+                        <td colspan="10" id="binaryScreen">
+                            <ul>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                            </ul>
+                            <ul>
+                                <li class="left">63</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="left">47</li>
+                                <li></li>
+                                <li></li>
+                                <li class="right">32</li>
+                            </ul>
+                            <ul>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                                <li>0000</li>
+                            </ul>
+                            <ul>
+                                <li class="left">31</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="left">15</li>
+                                <li></li>
+                                <li></li>
+                                <li class="right">0</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="doubledCell" rowspan="3" colspan="2">
+                            <span>
+                                <input id="hex" type="radio" name="radio">
+                                <label for="hex">Hex</label>
+                            </span>
+                            <span>
+                                <input id="dec" type="radio" name="radio" checked>
+                                <label for="dec">Dec</label>
+                            </span>
+                            <span>
+                                <input id="oct" type="radio" name="radio">
+                                <label for="oct">Oct</label>
+                            </span>
+                            <span>
+                                <input id="bin" type="radio" name="radio">
+                                <label for="bin">Bin</label>
+                            </span>
+                        </td>
+                        <td></td>
+                        <td class="button hover">Mod</td>
+                        <td>A</td>
+                        <td class="hover">MC</td>
+                        <td class="hover">MR</td>
+                        <td class="hover">MS</td>
+                        <td class="hover">M+</td>
+                        <td class="hover">M-</td>
+                    </tr>
+                    <tr>
+                        <td class="button hover">(</td>
+                        <td class="button hover">)</td>
+                        <td>B</td>
+                        <td class="button hover">&#8592;</td>
+                        <td class="button hover">CE</td>
+                        <td class="button hover">C</td>
+                        <td class="button hover">&plusmn;</td>
+                        <td>&#8730</td>
+                    </tr>
+                    <tr>
+                        <td class="button hover">RoL</td>
+                        <td class="button hover">RoR</td>
+                        <td>C</td>
+                        <td class="buttonGradient hover">7</td>
+                        <td class="buttonGradient hover">8</td>
+                        <td class="buttonGradient hover">9</td>
+                        <td class="button hover">/</td>
+                        <td>%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="doubledCell" rowspan="3" colspan="2">
+                            <span>
+                                <input id="qword" type="radio" name="radio2" checked>
+                                <label for="qword">Qword</label>
+                            </span>
+                            <span>
+                                <input id="dword" type="radio" name="radio2">
+                                <label for="dword">Dword</label>
+                            </span>
+                            <span>
+                                <input id="word" type="radio" name="radio2">
+                                <label for="word">Word</label>
+                            </span>
+                            <span>
+                                <input id="byte" type="radio" name="radio2">
+                                <label for="byte">Byte</label>
+                            </span>
+                        </td>
+                        <td class="button hover">Or</td>
+                        <td class="button hover">Xor</td>
+                        <td >D</td>
+                        <td class="buttonGradient hover">4</td>
+                        <td class="buttonGradient hover">5</td>
+                        <td class="buttonGradient hover">6</td>
+                        <td class="button hover">*</td>
+                        <td>1/<span class="italic">x</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan=""class="button hover">Lsh</td>
+                        <td class="button hover">Rsh</td>
+                        <td>E</td>
+                        <td class="buttonGradient hover">1</td>
+                        <td class="buttonGradient hover">2</td>
+                        <td class="buttonGradient hover">3</td>
+                        <td class="button hover">-</td>
+                        <td class="button hover" rowspan="2">=</td>
+                    </tr>
+                    <tr>
+                        <td class="button hover">Not</td>
+                        <td class="button hover">And</td>
+                        <td>F</td>
+                        <td class="buttonGradient hover" colspan="2">0</td>
+                        <td>.</td>
+                        <td class="button hover">+</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+    </div>
+</body>
+</html>

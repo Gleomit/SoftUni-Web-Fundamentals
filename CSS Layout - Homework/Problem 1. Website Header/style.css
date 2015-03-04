@@ -1,0 +1,198 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(38,70,102);
+    padding: 15px 30px;
+    width: 1225px;
+}
+
+button {
+    background: url(images/searchButton.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: white;
+    width: 30px;
+    height: 28px;
+    background-position: center;
+    vertical-align: top;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -6px;
+}
+
+input {
+    vertical-align: top;
+    height: 26px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+a, p, li {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bell:hover {
+    background-color: transparent;
+}
+
+#bell ul {
+    background-color: white;
+    padding: 0px; 
+    margin-top: 1px;
+}
+
+#bell li {
+    text-align: left;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+
+#bell li:hover {
+    background-color: transparent;
+}
+
+#bell li a {
+    text-decoration: none;
+    color: #234465;
+}
+
+#bell li:hover a {
+    text-decoration: underline;
+}
+
+#bell li:last-child {
+    text-align: center;
+    border-bottom: none;
+}
+
+#bell li:last-child a {
+    color: white;
+    padding: 5px 25px;
+    background-color: #FF9C00;
+}
+
+#bell li:nth-child(2) {
+    background-color: rgba(42, 139, 202, 0.1);
+}
+
+#bell li:first-child {
+    background-color: #1E3B57;
+    border-bottom: none;
+}
+
+#bell li:first-child a {
+    color: white;
+}
+
+
+ul {
+    margin-top: 0px;
+    list-style: none;
+}
+
+#logo>p, ul {
+    text-align: right;
+}
+
+#logo>p {
+    margin-top: 0px;
+}
+
+#logo {
+    vertical-align: top;
+    background: url(images/logo.png);
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 65px;
+    margin-top: 7px;
+}
+
+#user {
+    margin-right: 1px;
+}
+
+#user:hover {
+    text-decoration: underline;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#search {
+    margin-right: 10px;
+}
+
+#bell {
+    margin-right: 30px;
+}
+
+li>img, #user, #bell {
+    vertical-align: bottom;
+}
+
+#logo, #menuArea, #menuArea>ul>li {    
+    display: inline-block;
+}
+
+#menuArea>ul:nth-child(2)>li {
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+
+#menuArea>ul:nth-child(2)>li:nth-child(6) {
+    margin-right: 0px;
+}
+
+ul ul {
+    padding: 0px;
+    text-align: left;
+    background-color: rgb(38,70,102);
+    width: 310px;
+    display: none;
+    margin-left: -10px;
+    margin-top: 11px;
+}
+
+ul>li:hover {
+    background-color: #4CA0DB;
+    cursor: pointer;
+}
+
+li ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+}
+
+li ul li:hover {
+    background-color: #FF9C00;
+}
+
+li:hover ul {
+    display: block; 
+    position: absolute;
+}
+
+.category:hover {
+    color: white;
+}
+
+.category {
+    color: #4CA0DB;
+}
+
+.arrow {
+    width: 0; 
+	height: 0; 
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid white;
+    display: inline-block;
+    vertical-align: middle;
+}

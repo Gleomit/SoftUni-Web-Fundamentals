@@ -1,0 +1,383 @@
+body {
+    background-image: url("../images/background-flowers.jpg");
+    background-size: 100% 120%;
+    font-family: Verdana;
+    margin: 0;
+}
+#wrapper {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+#wrapper>header,
+section,
+aside,
+footer {
+    background-color: rgba(254, 224, 226, 0.9);
+    border: 2px solid black;
+}
+header a,
+section a,
+aside a {
+    color: black;
+    text-decoration: none;
+}
+footer a {
+    color: black;
+}
+@media screen and (min-width: 960px) {
+    #wrapper {
+        margin: auto auto;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        max-width: 960px;
+    }
+    header ul li,
+    header ul li a {
+        display: inline-block;
+    }
+    header img {
+        width: 27.36%;
+    }
+    header span {
+        float: right;
+        font-size: 110%;
+    }
+    header ul {
+        padding: 0px;
+        width: 100%;
+        text-align: right;
+    }
+    header ul li {
+        width: 148px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    header ul li:last-child {
+        margin-right: 0;
+    }
+    header ul li a {
+        color: white;
+        background-color: #EB2A7B;
+        padding: 14px 0px;
+        width: 100%;
+        border: 1px inset black;
+        display: inline-block;
+        text-align: center;
+    }
+    #wrapper>header {
+        margin-bottom: 35px;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    #wrapper>header,
+    footer {
+        flex-grow: 1;
+    }
+    aside ul {
+        padding: 0;
+    }
+    aside {
+        width: 17%;
+        padding: 2% 2%;
+        margin-bottom: 13px;
+    }
+    aside:nth-of-type(1) {
+        margin-right: auto;
+        padding-top: 0;
+    }
+    aside:nth-of-type(2) {
+        order: 3;
+        margin-left: auto;
+    }
+    footer {
+        order: 4;
+        text-align: center;
+    }
+    section {
+        order: 2;
+        width: 51%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 70px;
+    }
+    section header h1 {
+        margin-bottom: 0px;
+        font-size: 140%;
+    }
+    section div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    section div img {
+        width: 115px;
+        height: 98px;
+        margin-bottom: 6px;
+    }
+}
+@media screen and (min-width: 780px) and (max-width: 960px) {
+    #wrapper {
+        margin: auto auto;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    header ul li,
+    header ul li a {
+        display: inline-block;
+    }
+    header img {
+        width: 27.36%;
+    }
+    header span {
+        float: right;
+        font-size: 110%;
+    }
+    header ul {
+        padding: 0px;
+        width: 100%;
+        text-align: right;
+    }
+    header ul li {
+        width: 148px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    header ul li:last-child {
+        margin-right: 0;
+    }
+    header ul li a {
+        color: white;
+        background-color: #EB2A7B;
+        padding: 14px 0px;
+        width: 100%;
+        border: 1px inset black;
+        display: inline-block;
+        text-align: center;
+    }
+    #wrapper>header {
+        margin-bottom: 35px;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    #wrapper>header,
+    footer {
+        flex-grow: 1;
+    }
+    aside ul {
+        padding: 0;
+    }
+    aside {
+        width: 16%;
+        padding: 2% 2%;
+        margin-bottom: 13px;
+        padding-bottom: 50px;
+    }
+    aside:nth-of-type(1) {
+        margin-right: auto;
+        padding-top: 0;
+    }
+    aside:nth-of-type(2) {
+        order: 3;
+        margin-left: auto;
+    }
+    footer {
+        order: 4;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    section {
+        order: 2;
+        width: 53%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 13px;
+        padding-bottom: 13px;
+    }
+    section header h1 {
+        margin-bottom: 0px;
+        font-size: 1.4em;
+    }
+    section div {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section div img:last-child,
+    section div img:nth-of-type(3),
+    section div img:nth-of-type(6),
+    section div img:nth-of-type(5),
+    section div img:nth-of-type(2) {
+        margin-left: auto;
+    }
+    section div img {
+        width: 28.35%;
+        height: 26.88%;
+        margin-bottom: 6px;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 780px) {
+    #wrapper {
+        flex-direction: column;
+    }
+    header ul li,
+    header ul li a {
+        display: inline-block;
+    }
+    header ul {
+        padding: 0px;
+        width: 100%;
+        text-align: right;
+    }
+    header ul li {
+        width: 22.27%;
+        margin-right: 2.12%;
+        margin-bottom: 25px;
+    }
+    header ul li:last-child {
+        margin-right: 0;
+    }
+    header ul li a {
+        color: white;
+        background-color: #EB2A7B;
+        padding: 10px 0px;
+        width: 100%;
+        border: 1px inset black;
+        display: inline-block;
+        text-align: center;
+    }
+    header span {
+        word-spacing: 20px;
+        display: inline-block;
+        font-size: 1.1em;
+    }
+    #wrapper>header {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    header img {
+        width: 35.49%;
+        vertical-align: middle;
+    }
+    section div img {
+        width: 29.75%;
+        height: 21.67%;
+        margin-bottom: 5px;
+    }
+    section div {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section {
+        order: 1;
+        padding: 0% 2.12% 0% 2.12%;
+    }
+    section h1 {
+        font-size: 1.35em;
+        margin-bottom: 0;
+    }
+    section div img:last-child,
+    section div img:nth-child(3),
+    section div img:nth-child(6),
+    section div img:nth-of-type(5),
+    section div img:nth-of-type(2) {
+        margin-left: auto;
+    }
+    section,
+    aside {
+        margin-bottom: 13px;
+    }
+    aside ul {
+        padding: 0px;
+    }
+    #wrapper>header,
+    aside.right,
+    aside.left,
+    footer {
+        padding-right: 2.12%;
+        padding-left: 2.12%;
+    }
+    footer {
+        order: 4;
+        text-align: center;
+        font-size: 80%;
+    }
+    aside {
+        order: 2;
+    }
+}
+@media screen and (max-width: 640px) {
+    #wrapper {
+        flex-direction: column;
+    }
+    section {
+        order: 1;
+        padding: 0% 5% 0% 5%;
+    }
+    header span {
+        word-spacing: 20px;
+        display: block;
+        font-size: 1.1em;
+    }
+    header img {
+        width: 62.49%;
+    }
+    section div img {
+        width: 49%;
+        margin-bottom: 4px;
+    }
+    section div img:nth-child(odd) {
+        float: left;
+    }
+    section div img:nth-child(even) {
+        float: right;
+    }
+    footer {
+        order: 4;
+    }
+    aside {
+        order: 2;
+    }
+    section h1 {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    #wrapper>header,
+    aside.right,
+    aside.left {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    #wrapper>header {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    section,
+    aside {
+        margin-bottom: 13px;
+    }
+    ul {
+        padding: 0px;
+    }
+    header ul li,
+    header ul li a {
+        display: block;
+        width: 100%;
+    }
+    header ul li a {
+        color: white;
+        background-color: #EB2A7B;
+        padding: 15px 0px 15px 0px;
+        border: 1px inset black;
+        text-align: center;
+    }
+    ul li {
+        display: block;
+    }
+}

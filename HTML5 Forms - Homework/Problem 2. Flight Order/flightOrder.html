@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form>
+			<p>FLIGHT ORDER</p>
+			<div id="firstColumn">
+				<label for="fromCity">From</label>
+				<select id="fromCity">
+					<option selected>enter a city</option>
+					<option>Bulgaria</option>
+					<option>France</option>
+					<option>Spain</option>
+				</select>
+				<label for="departureDate">Depature Date</label>
+				<input id="departureDate" type="text" placeholder="09.06.2014">
+
+				<label for="returnDate">Return Date</label>
+				<input id="returnDate" type="text" placeholder="13.06.2014">
+				<div id="parts">
+					<span id="firstPart">
+						<label for="firstNum">12+</label>
+						<input id="firstNum" type="number" value="0">
+					</span>
+
+					<span id="secondPart">
+						<label for="secondNum">2-12</label>
+						<input id="secondNum" type="text" value="0">
+					</span>
+
+					<span id="thirdPart">
+						<label for="thirdNum">0-2</label>
+						<input id="thirdNum" type="text" value="0">
+					</span>
+				</div>					
+			</div>
+			<div id="secondColumn">
+				<label for="toCity">To</label>
+				<select id="toCity">
+					<option selected>enter a city</option>
+					<option>Bulgaria</option>
+					<option>France</option>
+					<option>Spain</option>
+				</select>
+
+				<div id="prefers">
+					<input id="preferableDirects" type="checkbox">
+					<label for="preferableDirects">Prefer directs</label>
+				</div>
+				<label for="timeIntervalOneStart">Time Interval</label>
+				<input id="timeIntervalOneStart" type="text" placeholder="00:20">
+
+				<input id="timeIntervalOneEnd" type="text" placeholder="05:00">
+
+				<label for="timeIntervalTwoStart">Time Interval</label>
+				<input id="timeIntervalTwoStart" type="text" placeholder="16:00">
+
+				<input id="timeIntervalTwoEnd" type="text" placeholder="22:00">
+
+				<label for="typeClass">Choose class</label>
+				<select id="typeClass">
+					<option selected>Economy</option>
+					<option>Express</option>
+				</select>
+				<input id="searchButton" type="submit" value="Search">
+			</div>
+		</form>
+	</body>
+</html>

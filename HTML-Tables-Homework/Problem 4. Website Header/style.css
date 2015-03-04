@@ -1,0 +1,152 @@
+nav {
+    background-color: #234465;
+    color: white;
+    padding: 10px;
+    width: 1005px
+}
+
+body {
+    font-family: 'PT Sans', Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0px;
+}
+
+td table {
+    width: 99%;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+#secondLine td:hover {
+    background-color: #4CA0DB;
+    cursor: pointer;
+}
+
+#logoArea a {
+    color: white;
+}
+
+#firstLine {
+    padding: 0px;
+}
+
+#searchArea {
+    width: 205px;
+}
+
+#user {
+    width: 80px;
+}
+
+td table td {
+    padding: 0px;
+    margin: 0px;
+}
+
+td {
+    padding: 10px;
+    border-radius: 10px;
+}
+td span {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#searchButton {
+    margin: 0px;
+    background-image: url(images/searchButton.png);
+    background-color: #F0F0F0; 
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 26px;
+    background-position: center;
+    vertical-align: middle;
+    margin-left: -7px;
+    border: none;
+    border-left: 1px solid #D5D5D5; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    margin-top: 2px;
+}
+
+#searchField {
+    vertical-align: bottom;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    height: 21px;
+}
+
+#beta {
+    display: inline;
+    position: absolute;
+    margin-left: 225px;
+}
+
+ul {
+    list-style: none;
+    background-color: #234465;
+    display: none;
+    margin-left: -10px;
+    padding: 0px;
+    width: 215px;
+}
+
+#carrot {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 4px; 
+}
+
+ul li {
+    font-size: 17px;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+#secondLine td:hover ul, #user:hover ul {
+    display: block;
+    position: absolute; 
+}
+
+#secondLine td:hover li, #user:hover li {
+    float: none;
+    cursor: pointer;
+}
+
+#secondLine td:hover li:hover, #user:hover li:hover {
+    background-color: #FF9C00;
+}
+
+#searchButton:hover {
+    cursor: pointer;
+    background-color: #367cae;
+}
+
+#user ul {
+    margin-top: -1px;
+    text-align: left;
+}
+
+ul li:first-child {
+    color: #4CA0DB;
+}
+
+#user:hover {
+    cursor: pointer;
+}
+
+#user:hover span:first-child {
+    text-decoration: underline;
+}

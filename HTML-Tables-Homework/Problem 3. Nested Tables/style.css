@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border: 1px solid black;
+}
+table table td {
+    display: block;
+
+}
+td {
+    border: 1px solid black;
+    font-size: 60px;
+    padding: 10px;
+    font-weight: inherit;
+}
+
+img {
+    padding-top: 10px;
+    width: 160px;
+    height: 160px;
+}

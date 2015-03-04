@@ -1,0 +1,185 @@
+body{
+    margin: 0px;
+    font-size: 100%;
+    font-family: Verdana;
+}
+
+#mainArea{
+    background-color: green;
+    padding: 20px;
+}
+
+#mainArea table {
+    border-spacing: 0px;
+}
+
+table table td{
+    height: 70px;
+    margin: 0px;
+    border: 2px solid black;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+.positive, .negative{
+    width: 170px;
+}
+
+.positive select{
+    color: green;
+    font-size: 105%;
+}
+
+.negative select{
+    color: red;
+    font-size: 105%;
+}
+
+#group, #result{
+    width: 120px;
+}
+.box{
+    width: 70px;
+}
+
+.firstTop{
+    border-top-left-radius: 20px;
+}
+
+.firstDown{
+    border-bottom-left-radius: 20px;
+}
+
+.lastTop{
+    border-top-right-radius: 20px;
+}
+
+.lastDown{
+    border-bottom-right-radius: 20px;
+}
+.country{
+    width: 220px;
+}
+
+select{
+    width: 45px;
+    height: 45px;
+    color: black
+}
+
+#brasil div{
+    background-image: url(brasil.png);
+}
+
+#spain div{
+    background-image: url(Spain.png);
+}
+
+#germany div{
+    background-image: url(germany.png);
+}
+
+#argentina div{
+    background-image: url(argentina.png);
+}
+
+#italy div{
+    background-image: url(italy.png);
+}
+
+#netherlands div{
+    background-image: url(netherlands.png);
+}
+
+#bosnia div{
+    background-image: url(bosnia_herz.png);
+}
+
+#mexico div{
+    background-image: url(mexico.png);
+}
+
+#portugal div{
+    background-image: url(portugal.png);
+}
+
+#england div{
+    background-image: url(england.png);
+}
+
+.right div, .left div{
+    height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.right .flag,.left .flag{
+    background-repeat: no-repeat;
+    background-size: 30px 20px;
+    background-position: right;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+}
+
+.right .flag{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.left .flag{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.redBet{
+    background-image: url(redBet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-size: 52px 47px;
+    border: none;
+    width: 52px;
+    height: 47px;
+}
+
+.greenBet{
+    background-image: url(greenBet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    background-size: 49px 48px;
+    width: 49px;
+    height: 48px;
+}
+.orange td{
+    background-color: #f8c711;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.white td{
+    background-color: white;
+}
+
+.gray{
+    background-color: lightgray;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.greenBet:hover{
+    cursor: pointer;
+}

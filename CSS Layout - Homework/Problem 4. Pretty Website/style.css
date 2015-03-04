@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    font-family: "Arial";
+    background-color: #101415;
+}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    background: url(images/headerBackground.jpg);
+    background-repeat: no-repeat;
+    height: 270px;
+    color: white;
+    background-size: 100% 100%;
+}
+
+header>h1 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: 22%;
+    margin-left: 55%;
+    text-align: right;
+}
+
+nav li:first-child {
+    background-color: #b9b9b9;
+    color: white;
+}
+
+nav {
+    background-color: #e6e6e6;
+    margin: 0px;
+    font-size: 17px;
+    height: 55px;
+    clear: both;
+}
+
+nav li:hover {
+    background-color: #b9b9b9;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #e6e6e6;
+    float: left;
+    border-bottom: 1px solid white;
+}
+
+li {
+    background-color: #e6e6e6;
+    border-right: 1px solid white;
+    color: #626161;
+    padding: 15px 30px;
+    float: left;
+}
+
+main {
+    position: relative;
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    float: left;
+    width: 100%;
+}
+
+section {
+    width: 570px;
+    margin-left: 5%;
+    float: left;
+}
+
+section .information {
+    margin-top: 20px;
+}
+
+aside {
+    float: right;
+    vertical-align: top;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+aside p {
+    margin-bottom: 0px;
+}
+
+aside a {
+    display: block;
+    color: #84be62;
+}
+
+aside article:nth-of-type(2) a {   
+    margin-top: 20px;
+}
+
+aside article {
+    width: 155px;
+}
+
+aside article:nth-of-type(1) {
+    background-color: #eee;
+}
+
+article {
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 19px;
+    margin-bottom: 20px;
+}
+
+section article:last-child {
+    padding-bottom: 0px;
+}
+
+footer {
+    background-color: #96cd31;
+    height: 90px;
+    clear: both;
+}
+
+.subArticle, img {
+    display: inline-block;
+}
+
+.subArticle>div {
+    width: 350px;
+}
+
+.title {
+    font-size: 20px;
+    color: #84be19;
+    font-weight: bold;
+}
+
+.subArticle {
+    vertical-align: top;
+    margin-left: 11px;
+}
+
+.subArticle p {
+    margin-top: 0px;
+}
+
+.information {
+    font-size: 12px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.block {
+    display: block;
+}
+
+footer p {
+    margin-left: 9%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 13px;
+}
+
+footer a {
+    color: black;
+}

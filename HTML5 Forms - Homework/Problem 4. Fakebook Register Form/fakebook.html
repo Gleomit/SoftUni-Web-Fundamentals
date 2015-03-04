@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+            <div><h1>fakebook<span>&reg</span></h1></div>
+			<h3>Registration</h3>
+			<p>It is safe and it will always be!</p>
+			<form>
+				<div id="firstFieldset">
+					<fieldset>
+						<legend align="center">None-Important Information</legend>
+						<div id="names">
+							<input type="text" placeholder="First Name" class="inlineBlock">
+							<input type="text" placeholder="Last Name" class="inlineBlock">
+						</div>
+
+						<div id="emailAndNumber">
+							<input type="email" placeholder="Your Email" required>
+							<input type="text" placeholder="Phone Number" class="inlineBlock" required>
+						</div>
+
+						<div id="passAndWebsite">
+							<input type="text" placeholder="Your Password">
+							<input type="text" placeholder="Website" class="inlineBlock">
+						</div>
+
+						<div id="birthdayArea">
+							<label for="birthday">Birthday</label>
+							<input id="birthday" type="datetime-local" value="2014-09-05T13:58">
+						</div>
+
+						<span>
+							<input type="radio" value="female" name="option">
+							<label for="female">Female</label>
+						</span>
+
+						<span>
+							<input type="radio" value="male" name="option" class="inlineBlock">
+							<label for="male">Male</label>
+						</span>
+						<span>
+							<input type="radio" value="other" name="option" class="inlineBlock">
+							<label for="other">Other</label>
+						</span>
+					</fieldset>				
+					<input type="reset" value="Clear Form">
+				</div>
+                <!-- used align directly on legend for firefox compatibility -->
+				<div id="secondFieldset">
+					<fieldset>
+						<legend align="center">Important Information *required</legend>
+						<div id="countryArea">
+							<select>
+								<option selected>Country</option>
+								<option>Bulgaria</option>
+								<option>France</option>
+								<option>Germany</option>
+							</select>
+							<input type="text" placeholder="Village" class="inlineBlock">
+							<input type="text" placeholder="District" class="inlineBlock">
+						</div>
+
+						<div id="livingInfo">
+							<input type="text" placeholder="Street" class="block">
+							<input type="text" placeholder="Nr" class="inlineBlock">
+							<input type="text" placeholder="Floor" class="inlineBlock">
+							<input type="text" placeholder="Ap Nr" class="inlineBlock">
+						</div>
+
+						<div id="colorArea">
+							<label class="block">Door color</label>
+							<input class="block" type="color" value="#ff80c0">
+							<input type="text" placeholder="Water Meter Nr" class="inlineBlock">
+							<select class="inlineBlock">
+								<option selected>Aunt Panties' Size</option>
+								<option>Other size one</option>
+								<option>Other size two</option>
+								<option>Other size three</option>
+							</select>
+						</div>
+
+						<div id="personalInfo">
+							<label for="myTextArea">More Personal Information</label>
+							<textarea id="myTextArea">Give Us More Information!!!</textarea>
+						</div>
+					</fieldset>				
+					<input type="submit" value="Register">
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

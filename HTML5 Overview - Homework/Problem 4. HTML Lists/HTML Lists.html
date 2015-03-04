@@ -1,0 +1,60 @@
+<!doctype html>
+<html>	
+	<head>
+		<title> HTML Lists </title>
+		<style type="text/css">
+			li
+			{
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			span
+			{
+				margin-left: 12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		Preceding Text
+		<br/>
+		<ol type = "I">
+			<li>
+				<span>List Item 1</span>
+				<ol type = "a">
+					<li><span>Nested Item 1.1</span></li>
+					<li><span>Nested Item 1.2</span></li>
+				</ol>
+			</li>
+
+			<li> 
+				<span>List Item 2</span>
+				<ol type="1">
+					<li> <span>Nested Item 2.1</span> </li>
+					<li> <span>Nested Item 2.2</span>
+						<ul type="circle">
+							<li> <span>Nested Item 2.2.1</span> </li>
+							<li> <span>Nested Item 2.2.2</span>
+								<ul type="square">
+									<li> <span>Nested Item 2.2.2.1</span> </li>
+									<li> <span>Nested Item 2.2.2.2</span> </li>
+								</ul>
+							</li>
+							<li> <span>Nested Item 2.2.3</span> </li>
+						</ul>
+					</li>
+					<li> <span>Nested Item 2.3</span> </li>
+				</ol>
+			</li>
+
+			<li>
+				<span>List Item 3</span>
+				<ul type="disc">
+					<li> <span>Nested Item 3.1</span> </li>
+					<li> <span>Nested Item 3.1</span> </li>
+					<li> <span>Nested Item 3.1</span> </li>
+				</ul>
+			</li>
+		</ol>
+	</body>
+</html>

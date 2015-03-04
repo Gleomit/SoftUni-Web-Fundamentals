@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="mainContainer">
+        <h1 id="headText">Enter the system</h1>
+        <p>It is necessary to login in Your account in order to sign in for a course.</p>
+        <div id="subContainer">
+            <form id="registerForm" action="">
+                <p><span>ARE YOU NEW?</span> <span>REGISTER</span></p>
+                <input type="text" placeholder="User name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <input id="registerButton" type="submit" value="Register">
+            </form>
+
+            <form id="loginForm" action="">
+                <p>ALREADY A STUDENT? LOGIN</p>
+                <input type="text" placeholder="User name">
+                <input type="password" placeholder="Password">
+                <div id="rememberMeArea">
+                    <input type="checkbox"><span>Remember me?</span>
+                </div>
+                <div id="loginButtonArea">
+                    <input type="submit" value="Login">
+                    <a href="#">Forgot Password</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

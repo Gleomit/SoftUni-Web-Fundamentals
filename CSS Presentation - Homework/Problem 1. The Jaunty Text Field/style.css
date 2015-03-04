@@ -1,0 +1,169 @@
+body {
+    font-family: sans-serif;
+}
+
+div {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+
+#first {
+    width: 750px;
+    padding-bottom: 200px;
+    padding-top: 25px;
+    border-left: 7px dashed red;
+    border-right: 15px solid green;
+    border-top: 7px dotted yellow;
+    border-bottom: 10px double blue;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 13px 10px 11px #dedede;
+    box-shadow:25px 25px 8px #3f3f3f;
+    -moz-box-shadow: -5px -5px #888;
+}
+
+#secondTextContent {
+    font-size: 25.5px;
+    left: 160px;
+    top: 145px;
+    height: 100px;
+    width: 500px;
+    text-shadow: 15px 15px 10px #dedede;
+}
+
+#second {
+    width: 670px;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    font-size: 26px;
+    top: 120px;
+    left: 44px;
+    border-color: red;
+}
+
+#third, #fourth {
+    width: 240px;
+    height: 25px;
+    background-color: #d8921a;
+    font-size: 21px;
+    top: 195px;
+    text-align: center;
+    border-width: 5px;
+    border-style: outset;
+    border-top-color: #ffa500;
+    border-left-color: #ffa500;
+    border-right-color: #ab6e00;
+    border-bottom-color: #ab6e00;
+}
+
+#third {
+    left: 130px;
+}
+
+#fourth {
+    left: 390px;
+}
+
+#fifth {
+    color:white;
+    width: 149px;
+    height: 59px;
+    background-color: transparent;
+    border-radius: 180px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;  
+    top: 52px;
+    left: 710px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#fifthContainer {
+    border-radius: 180px;
+    width: 165px;
+    height: 95px;
+    top: 45px;
+    left: 705px;
+}
+
+#sixthContainer {
+    width: 50px;
+    height: 50px;
+    top: 110px;
+    left: 640px;
+}
+
+#sixth {
+    width: 30px;
+    height: 30px;
+    top: 117px;
+    left: 647px;
+}
+
+#seventh {
+    width: 20px;
+    height: 20px;
+    top: 170px;
+    left: 599px;
+}
+
+#seventhContainer {
+    width: 35px;
+    height: 35px;
+    top: 165px;
+    left: 595px;
+}
+
+#fifthContainer, #sixthContainer, #seventhContainer {
+    background: rgba(166,167,167,0.8);
+    border: none;
+}
+
+#sixth, #seventh, #sixthContainer, #seventhContainer {
+    border-radius: 360px;
+}
+
+#fifth, #sixth, #seventh {
+    border: 3px dashed white;
+    background-color: transparent;
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth, #seventh,
+#tempFirst, #tempSecond, #tempThird, #fifthContainer, #sixthContainer, #seventhContainer {
+    position: absolute;
+}
+
+#tempFirst, #tempSecond, #tempThird, #second {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 180px;
+}
+
+#tempThird {
+    width: 676px;
+    height: 130px;
+    top: 119px;
+    left: 41px;
+    border-color: yellow;
+}
+
+#tempSecond {
+    width: 682px;
+    height: 136px;
+    top: 116px;
+    left: 38px;
+    border-color: green;
+}
+
+#tempFirst {
+    width: 688px;
+    height: 142px;
+    top: 113px;
+    left: 35px;
+    border-color: blue;
+}

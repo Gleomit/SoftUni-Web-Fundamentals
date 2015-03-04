@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+th {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+
+table table {
+    padding: 3px;
+}
+#google, #github, #fb, #gmail, #youtube, #num, #beer, #wc {
+    height: 100px;
+}
+
+#food, #game {
+    height: 120px;
+}
+
+#google, #github, #fb {
+    vertical-align: top;
+}
+
+#food, #game, #youtube {
+    vertical-align: bottom;
+}
+
+#youtube, #fb, #socialLife, #sleep {
+    text-align: center;
+}
+
+#google {
+    width: 50%;
+}
+
+#github, #beer, #food {
+    text-align: right;
+}
+
+#fb, #gmail, #youtube, #num, #socialLife, #sleep {
+    width: 85px;
+}
+
+#socialLife, #sleep {
+    height: 50px;
+    vertical-align: middle;
+}
+
+#beer {
+    font-size: 40px;
+
+}
+
+#wc {
+    font-size: 20px;
+}

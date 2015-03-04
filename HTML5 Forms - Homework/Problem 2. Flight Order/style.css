@@ -1,0 +1,91 @@
+p {
+    margin-bottom: 0px;
+}
+
+body {
+	margin: 0px;
+}
+
+form, label, option, input {
+	font-family: Verdana;
+}
+
+form {
+	width: 540px;
+	background-color: #ffc0cb;
+	padding: 15px;
+    float: left;
+}
+
+label {
+	font-style: italic;
+	display: block;
+	margin-bottom: 3px;
+}
+
+form>p {
+	margin-top: 0px;
+	font-size: 35px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+#timeIntervalOneStart, #timeIntervalOneEnd, #timeIntervalTwoStart, #timeIntervalTwoEnd {
+	width: 125px;
+}
+
+input {
+	font-size: 20px;
+}
+
+select {
+	font-size: 22px;
+}
+
+#firstColumn, #secondColumn {
+	vertical-align: top;
+	display: inline-block;
+    float: left;
+}
+
+#secondColumn
+{
+    margin-left: 5px;
+}
+
+
+#prefers {
+	margin-bottom: 9px;
+	display: block;
+}
+
+label[for="preferableDirects"] {
+	display: inline-block;
+}
+
+#parts>span {
+	display: inline-block;
+}
+
+#parts>span>input {
+	width: 79px;
+}
+
+select, #departureDate, #returnDate, #searchButton, option {
+	width: 260px;
+}
+
+#searchButton {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+#fromCity {
+	margin-bottom: 33px;
+}
+
+#departureDate, #returnDate, #timeIntervalOneStart, #timeIntervalTwoStart, #typeClass {
+	margin-bottom: 7px;
+}

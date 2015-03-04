@@ -1,0 +1,304 @@
+@-webkit-keyframes shake {
+    0% {
+        -webkit-transform: translate(2px, 1px) rotate(0deg);
+    }
+    10% {
+        -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        -webkit-transform: translate(0px, 2px) rotate(0deg);
+    }
+    40% {
+        -webkit-transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    }
+    80% {
+        -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        -webkit-transform: translate(2px, 2px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+@-webkit-keyframes topLeftRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(80px, 130px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(80px, 130px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes topRightRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-240px, 130px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-240px, 130px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes topCenterRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-70px, 130px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-70px, 130px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes bottomRightRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-240px, -240px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-240px, -240px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes bottomLeftRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(80px, -240px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(80px, -240px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes bottomCenterRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-70px, -240px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-70px, -240px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes topBottomRightRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-240px, 10px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-240px, 10px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes topBottomLeftRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(80px, 10px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(80px, 10px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes topBottomCenterRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-70px, 10px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-70px, 10px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes bottomTopRightRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-240px, -110px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-240px, -110px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes bottomTopLeftRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(80px, -110px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(80px, -110px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+@-webkit-keyframes bottomTopCenterRoll {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(-70px, -110px) rotate(0deg);
+        width: 300px;
+    }
+    50% {
+        -webkit-transform: translate(-70px, -110px) rotate(720deg);
+        width: 300px;
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px);
+    }
+}
+body {
+    margin: 0;
+    background-color: #bab9b9;
+}
+main {
+    margin: 0 auto;
+    background-color: #ddd;
+    padding: 20px 80px;
+    width: 494px;
+}
+section,
+main,
+article {
+    float: left;
+}
+article {
+    display: inline-block;
+    padding: 4px 4px 0 4px;
+    margin: 2px 1px;
+    width: 150px;
+}
+article img {
+    width: 150px;
+    transition: 0.5s;
+}
+main article:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.7s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: 2s;
+    -webkit-animation-timing-function: linear;
+    cursor: pointer;
+}
+main .top .left img:focus {
+    -webkit-animation-name: topLeftRoll;
+}
+main .top .right img:focus {
+    -webkit-animation-name: topRightRoll;
+}
+main .top .middle img:focus {
+    -webkit-animation-name: topCenterRoll;
+}
+main .bottom .left img:focus {
+    -webkit-animation-name: bottomLeftRoll;
+}
+main .bottom .right img:focus {
+    -webkit-animation-name: bottomRightRoll;
+}
+main .bottom .middle img:focus {
+    -webkit-animation-name: bottomCenterRoll;
+}
+main .topBottom .left img:focus {
+    -webkit-animation-name: topBottomLeftRoll;
+}
+main .topBottom .right img:focus {
+    -webkit-animation-name: topBottomRightRoll;
+}
+main .topBottom .middle img:focus {
+    -webkit-animation-name: topBottomCenterRoll;
+}
+main .bottomTop .left img:focus {
+    -webkit-animation-name: bottomTopLeftRoll;
+}
+main .bottomTop .right img:focus {
+    -webkit-animation-name: bottomTopRightRoll;
+}
+main .bottomTop .middle img:focus {
+    -webkit-animation-name: bottomTopCenterRoll;
+}
+.bottomTop img:focus,
+.topBottom img:focus,
+.top img:focus,
+.bottom img:focus {
+    position: absolute;
+    -webkit-animation-duration: 5.2s;
+    -webkit-animation-timing-function: ease;
+}

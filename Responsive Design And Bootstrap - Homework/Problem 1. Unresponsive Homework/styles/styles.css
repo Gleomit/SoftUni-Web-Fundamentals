@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6698ff;
+    font-family: Helvetica;
+}
+section article,
+aside,
+footer {
+    background-color: #e0eafe;
+    border: 1px solid black;
+}
+section,
+aside {
+    vertical-align: top;
+}
+ul {
+    list-style: none;
+}
+#wrapper>header {
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+header a,
+aside a {
+    text-decoration: none;
+}
+nav a {
+    background-color: white;
+    border: 1px inset black;
+}
+article h1 {
+    font-size: 25px;
+}
+article p {
+    text-indent: 32px;
+}
+article,
+aside ul {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header h1 span {
+    color: white;
+}
+ul li a {
+    color: black;
+}
+footer {
+    text-align: center;
+    clear: both;
+}
+footer a,
+footer h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+article {
+    margin-bottom: 13px;
+}
+@media screen and (min-width: 960px) {
+    #wrapper {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    header h1 span {
+        font-size: 140%;
+    }
+    aside,
+    section {
+        vertical-align: top;
+    }
+    article h1 {
+        font-size: 26.5px;
+    }
+    aside {
+        width: 24.44%;
+        float: right;
+        margin-right: 4px;
+    }
+    aside li {
+        font-size: 105%;
+        margin-bottom: 10px;
+    }
+    article p {
+        font-size: 105%;
+    }
+    section {
+        float: left;
+        width: 72.92%;
+    }
+    nav ul {
+        float: right;
+        margin-bottom: 40px;
+        margin-right: 11px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    nav ul li a {
+        padding: 6px 13px;
+        font-size: 110%;
+    }
+}
+@media screen and (min-width: 781px) and (max-width: 960px) {
+    header h1 span {
+        vertical-align: middle;
+        font-size: 130%;
+    }
+    header h1 img {
+        vertical-align: middle;
+    }
+    aside,
+    section {
+        vertical-align: top;
+    }
+    nav ul {
+        float: right;
+        margin-bottom: 40px;
+        margin-right: 1.83%;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-left: 14px;
+    }
+    article h1 {
+        font-size: 26px;
+    }
+    nav ul li a {
+        padding: 9px 16px 11px 16px;
+        font-size: 130%;
+    }
+    section {
+        width: 71.99%;
+        float: left;
+        margin-right: 4.02%;
+    }
+    aside {
+        width: 23.51%;
+        float: left;
+    }
+    aside li {
+        margin-bottom: 17px;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 780px) {
+    header h1 span {
+        font-size: 40px;
+    }
+    nav {
+        padding-right: 2.06%;
+    }
+    nav ul {
+        float: right;
+        margin-bottom: 40px;
+    }
+    section {
+        clear: right;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-left: 14px;
+    }
+    nav ul li a {
+        padding: 9px 16px 11px 16px;
+    }
+    aside li {
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+        margin-left: 4%;
+        vertical-align: top;
+    }
+}
+@media screen and (max-width: 640px) {
+    #wrapper {
+        padding: 0px 0.27%;
+    }
+    header h1 {
+        text-align: center;
+    }
+    header h1 span {
+        display: inline-block;
+        font-size: 125%;
+    }
+    footer h2 {
+        font-size: 20px;
+    }
+    footer {
+        margin-top: 28px;
+    }
+    nav {
+        padding-right: 6.34%;
+        padding-left: 10.74%;
+        margin-bottom: 28px;
+    }
+    nav ul {
+        float: right;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    section {
+        clear: right;
+    }
+    nav li {
+        width: 100%;
+        margin-right: 0px;
+    }
+    nav ul li a {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 8px 0px 9px 0px;
+    }
+    section {
+        width: 100%;
+    }
+    aside li {
+        margin: 30px 0px;
+    }
+    aside li:last-child {
+        margin-bottom: 0px;
+    }
+    article h1 {
+        font-size: 26px;
+    }
+    aside li,
+    article header {
+        text-align: center;
+    }
+}

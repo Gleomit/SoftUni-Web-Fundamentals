@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+}
+
+section {
+    color: #777;
+    background-color: #f7f7f7;
+    font-style: italic;
+    padding: 18px 0px;
+    background-image: url(../images/tweet.png);
+    background-repeat: no-repeat;
+    background-position: 35px 15px;
+    padding-left: 60px;
+}

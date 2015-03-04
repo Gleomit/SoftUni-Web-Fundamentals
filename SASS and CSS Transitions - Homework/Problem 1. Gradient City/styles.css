@@ -1,0 +1,200 @@
+﻿body {
+  background: -webkit-linear-gradient(bottom, #808080, #ffffff);
+  background: -o-linear-gradient(bottom, #808080, #ffffff);
+  background: -moz-linear-gradient(bottom, #808080, #ffffff);
+  background: linear-gradient(to bottom, #808080, #ffffff);
+  color: gray;
+  font-family: Verdana, sans-serif;
+  font-size: 8px; }
+  body a {
+    text-decoration: none;
+    color: inherit; }
+  body #wrapper {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 680px;
+    padding: 15px; }
+    body #wrapper > header {
+      border: 3px solid #c8c8c8;
+      margin-bottom: 10px;
+      text-align: center; }
+      body #wrapper > header h1 {
+        font-size: 400%;
+        margin: 0;
+        margin-bottom: 15px; }
+      body #wrapper > header ul li {
+        border: 2px solid gray;
+        padding: 8px 10px;
+        margin-right: 60px;
+        display: inline-block; }
+        body #wrapper > header ul li:hover {
+          cursor: pointer;
+          background: -webkit-linear-gradient(bottom, #808080, #ffffff);
+          background: -o-linear-gradient(bottom, #808080, #ffffff);
+          background: -moz-linear-gradient(bottom, #808080, #ffffff);
+          background: linear-gradient(to bottom, #808080, #ffffff);
+          color: #fff; }
+        body #wrapper > header ul li:nth-of-type(3) {
+          margin-right: 0; }
+        body #wrapper > header ul li a {
+          font-size: 160%; }
+    body #wrapper > footer {
+      border: 3px solid #c8c8c8;
+      text-align: center; }
+      body #wrapper > footer h3 {
+        font-size: 180%; }
+      body #wrapper > footer li a {
+        font-size: 140%; }
+    body #wrapper section {
+      padding: 12px;
+      border: 3px solid #c8c8c8;
+      text-align: center;
+      margin-bottom: 10px; }
+      body #wrapper section h2, body #wrapper section h1 {
+        font-weight: normal; }
+      body #wrapper section h1 {
+        margin-top: 0; }
+      body #wrapper section > header {
+        text-decoration: underline;
+        font-size: 120%; }
+      body #wrapper section article {
+        border: 2px solid #c8c8c8;
+        margin-bottom: 15px;
+        text-align: center; }
+        body #wrapper section article > header {
+          font-size: 90%; }
+      body #wrapper section.linear article:nth-of-type(1) .purple {
+        background: -webkit-linear-gradient(bottom, #800080, #ffffff);
+        background: -o-linear-gradient(bottom, #800080, #ffffff);
+        background: -moz-linear-gradient(bottom, #800080, #ffffff);
+        background: linear-gradient(to bottom, #800080, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(1) .red {
+        background: -webkit-linear-gradient(bottom, #ff0000, #ffffff);
+        background: -o-linear-gradient(bottom, #ff0000, #ffffff);
+        background: -moz-linear-gradient(bottom, #ff0000, #ffffff);
+        background: linear-gradient(to bottom, #ff0000, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(1) .yellow {
+        background: -webkit-linear-gradient(bottom, #ff0, #ffffff);
+        background: -o-linear-gradient(bottom, #ff0, #ffffff);
+        background: -moz-linear-gradient(bottom, #ff0, #ffffff);
+        background: linear-gradient(to bottom, #ff0, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(1) .green {
+        background: -webkit-linear-gradient(bottom, #006400, #ffffff);
+        background: -o-linear-gradient(bottom, #006400, #ffffff);
+        background: -moz-linear-gradient(bottom, #006400, #ffffff);
+        background: linear-gradient(to bottom, #006400, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(1) .blue {
+        background: -webkit-linear-gradient(bottom, #0000ff, #ffffff);
+        background: -o-linear-gradient(bottom, #0000ff, #ffffff);
+        background: -moz-linear-gradient(bottom, #0000ff, #ffffff);
+        background: linear-gradient(to bottom, #0000ff, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(1) .orange {
+        background: -webkit-linear-gradient(bottom, #ff6a00, #ffffff);
+        background: -o-linear-gradient(bottom, #ff6a00, #ffffff);
+        background: -moz-linear-gradient(bottom, #ff6a00, #ffffff);
+        background: linear-gradient(to bottom, #ff6a00, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(2) .purple {
+        background: -webkit-linear-gradient(right, #800080, #ffffff);
+        background: -o-linear-gradient(right, #800080, #ffffff);
+        background: -moz-linear-gradient(right, #800080, #ffffff);
+        background: linear-gradient(to right, #800080, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(2) .red {
+        background: -webkit-linear-gradient(right, #ff0000, #ffffff);
+        background: -o-linear-gradient(right, #ff0000, #ffffff);
+        background: -moz-linear-gradient(right, #ff0000, #ffffff);
+        background: linear-gradient(to right, #ff0000, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(2) .yellow {
+        background: -webkit-linear-gradient(right, #ff0, #ffffff);
+        background: -o-linear-gradient(right, #ff0, #ffffff);
+        background: -moz-linear-gradient(right, #ff0, #ffffff);
+        background: linear-gradient(to right, #ff0, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(2) .green {
+        background: -webkit-linear-gradient(right, #006400, #ffffff);
+        background: -o-linear-gradient(right, #006400, #ffffff);
+        background: -moz-linear-gradient(right, #006400, #ffffff);
+        background: linear-gradient(to right, #006400, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(2) .blue {
+        background: -webkit-linear-gradient(right, #0000ff, #ffffff);
+        background: -o-linear-gradient(right, #0000ff, #ffffff);
+        background: -moz-linear-gradient(right, #0000ff, #ffffff);
+        background: linear-gradient(to right, #0000ff, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(2) .orange {
+        background: -webkit-linear-gradient(right, #ff6a00, #ffffff);
+        background: -o-linear-gradient(right, #ff6a00, #ffffff);
+        background: -moz-linear-gradient(right, #ff6a00, #ffffff);
+        background: linear-gradient(to right, #ff6a00, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(3) .purple {
+        background: -webkit-linear-gradient(-210deg, #800080, #ffffff);
+        background: -o-linear-gradient(-210deg, #800080, #ffffff);
+        background: -moz-linear-gradient(-210deg, #800080, #ffffff);
+        background: linear-gradient(-210deg, #800080, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(3) .red {
+        background: -webkit-linear-gradient(-210deg, #ff0000, #ffffff);
+        background: -o-linear-gradient(-210deg, #ff0000, #ffffff);
+        background: -moz-linear-gradient(-210deg, #ff0000, #ffffff);
+        background: linear-gradient(-210deg, #ff0000, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(3) .yellow {
+        background: -webkit-linear-gradient(-210deg, #ff0, #ffffff);
+        background: -o-linear-gradient(-210deg, #ff0, #ffffff);
+        background: -moz-linear-gradient(-210deg, #ff0, #ffffff);
+        background: linear-gradient(-210deg, #ff0, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(3) .green {
+        background: -webkit-linear-gradient(-210deg, #006400, #ffffff);
+        background: -o-linear-gradient(-210deg, #006400, #ffffff);
+        background: -moz-linear-gradient(-210deg, #006400, #ffffff);
+        background: linear-gradient(-210deg, #006400, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(3) .blue {
+        background: -webkit-linear-gradient(-210deg, #0000ff, #ffffff);
+        background: -o-linear-gradient(-210deg, #0000ff, #ffffff);
+        background: -moz-linear-gradient(-210deg, #0000ff, #ffffff);
+        background: linear-gradient(-210deg, #0000ff, #ffffff); }
+      body #wrapper section.linear article:nth-of-type(3) .orange {
+        background: -webkit-linear-gradient(-210deg, #ff6a00, #ffffff);
+        background: -o-linear-gradient(-210deg, #ff6a00, #ffffff);
+        background: -moz-linear-gradient(-210deg, #ff6a00, #ffffff);
+        background: linear-gradient(-210deg, #ff6a00, #ffffff); }
+      body #wrapper section.radial article .purple {
+        background: -webkit-radial-gradient(#800080, #ffffff);
+        background: -o-radial-gradient(#800080, #ffffff);
+        background: -moz-radial-gradient(#800080, #ffffff);
+        background: radial-gradient(#800080, #ffffff); }
+      body #wrapper section.radial article .red {
+        background: -webkit-radial-gradient(#ff0000, #ffffff);
+        background: -o-radial-gradient(#ff0000, #ffffff);
+        background: -moz-radial-gradient(#ff0000, #ffffff);
+        background: radial-gradient(#ff0000, #ffffff); }
+      body #wrapper section.radial article .yellow {
+        background: -webkit-radial-gradient(#ff0, #ffffff);
+        background: -o-radial-gradient(#ff0, #ffffff);
+        background: -moz-radial-gradient(#ff0, #ffffff);
+        background: radial-gradient(#ff0, #ffffff); }
+      body #wrapper section.radial article .green {
+        background: -webkit-radial-gradient(#006400, #ffffff);
+        background: -o-radial-gradient(#006400, #ffffff);
+        background: -moz-radial-gradient(#006400, #ffffff);
+        background: radial-gradient(#006400, #ffffff); }
+      body #wrapper section.radial article .blue {
+        background: -webkit-radial-gradient(#0000ff, #ffffff);
+        background: -o-radial-gradient(#0000ff, #ffffff);
+        background: -moz-radial-gradient(#0000ff, #ffffff);
+        background: radial-gradient(#0000ff, #ffffff); }
+      body #wrapper section.radial article .orange {
+        background: -webkit-radial-gradient(#ff6a00, #ffffff);
+        background: -o-radial-gradient(#ff6a00, #ffffff);
+        background: -moz-radial-gradient(#ff6a00, #ffffff);
+        background: radial-gradient(#ff6a00, #ffffff); }
+    body #wrapper .innerContainer {
+      padding: 8px; }
+      body #wrapper .innerContainer div {
+        width: 100px;
+        height: 105px;
+        display: inline-block;
+        border-radius: 15px; }
+    body #wrapper ul {
+      list-style: none;
+      padding: 0; }
+    body #wrapper h3 {
+      font-weight: normal;
+      text-decoration: underline; }
+
+/*# sourceMappingURL=styles.css.map */

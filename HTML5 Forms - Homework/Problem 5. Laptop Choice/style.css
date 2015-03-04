@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+}
+
+.laptop {
+    border-radius: 10px;
+    border: 1px solid #d9eefa;
+    padding: 14px 10px 0px 10px; 
+    display: inline-block;
+    width: 175px;
+    height: 210px;
+    margin: 5px;
+}
+
+.laptop>p:first-child {
+    color: #2D4375;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.laptop>p {
+    margin: 0px;
+    color: #2c425a;
+    font-size: 18.5px;
+}
+
+.price {
+    text-align: center;
+    margin: 10px 0px 0px 80px;
+    padding: 10px 15px;
+    width: 75px;
+    background-color: #2C445C;
+    color: white;
+    font-size: 16px;
+    border-top-left-radius: 10px;
+}
+
+img {
+    width: 175px;
+    height: 93px;
+}
+
+.min, .max {
+	font-size: 15px;
+    margin-top: 35px;
+}
+
+.min {
+    text-align: left;
+}
+
+.max {
+	text-align: right;
+}
+
+.name {
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.name, .min, .max, form input {
+    position: absolute;
+    display: inline-block;
+}
+
+form {
+    margin-top: -55px;
+    width: 192px;
+    height: 530px;
+    border: 1px solid #d9eefa;
+    display: inline-block;
+    border-radius: 1px;
+    background-color: #f7fcff;
+}
+
+form>div>input {
+	display: block;
+    width: 190px;
+    margin-top: 56px; 
+}
+
+form>div {
+    margin: 0px;
+    position: relative;
+    height: 80px;
+}
+
+#optionsArea, #laptopsArea {
+	vertical-align: top;
+	display:inline-block;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #2C445C;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+#weight .max {
+    margin-left: 183px;
+}
+
+#weight .name {
+    margin-left: 65px;
+}
+
+#warranty .max
+{
+    margin-left: 129px;
+}
+
+#warranty .name {
+    margin-left: 58px;
+}
+
+#price .max, #ram .max {
+    margin-left: 158px;
+}
+
+#price .name {
+    margin-left: 75px;
+}
+
+#ram .name {
+    margin-left: 74px;
+}
+
+#disc .max {
+    margin-left: 145px;
+}
+
+#disc .name {
+    margin-left: 80px;
+}
+
+#display .max {
+    margin-left: 162px;
+}
+
+#display .name {
+    margin-left: 70px;
+}

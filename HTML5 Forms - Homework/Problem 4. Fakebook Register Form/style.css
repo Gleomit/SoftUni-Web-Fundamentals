@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+	font-family: Verdana, sans-serif;
+}
+
+#wrapper {
+    padding: 10px 0px 10px 0px;
+	background-color: #3B5997;
+    width: 860px;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 0px;
+}
+
+input[type="color"]
+{
+    padding: 0px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#wrapper>p {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+#wrapper>div {
+    text-align: center;
+}
+
+#wrapper>h3, #wrapper>p {
+	text-align: center;
+	color: white;
+}
+
+#birthday
+{
+    color: black;
+}
+
+fieldset>div input {
+    display: inline-block;
+}
+
+input, select {
+	color: #8b8896;
+}
+
+h1 {
+	font-size: 110px;
+    margin: 0px;
+    color: white;
+    display: inline-block;
+}
+
+#wrapper>div>h1>span {
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+}
+
+input, select, fieldset {
+	border-radius: 5px;
+}
+
+#firstFieldset>fieldset {
+    width: 285px;
+    padding-bottom: 34px;
+}
+
+#secondFieldset>fieldset {
+    width: 440px;
+    padding-bottom: 5px;
+}
+
+fieldset {
+    padding: 10px 10px 10px 10px;
+	border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+}
+
+fieldset>div {
+    margin-bottom: 5px;
+}
+
+legend {
+	text-align: center;
+}
+
+label, fieldset {
+	color: white;
+}
+
+form>div>input {
+	width: 100%;
+}
+
+#firstFieldset, #secondFieldset {
+	display: inline-block;
+	vertical-align: top;
+}
+
+textarea, #colorArea>label, #birthdayArea>label {
+	display: block;
+}
+
+#countryArea>select, #countryArea>input, #colorArea>input, #colorArea>select, #livingInfo>input:first-child {
+	width: 140px;
+}
+
+#livingInfo>input {
+	width: 70px;
+}
+
+input, select {
+    padding: 7px 0px 7px 0px;
+}
+
+textarea {
+	width: 98%;
+	height: 60px;
+    color: #b1b1a9;
+}
+
+input[type="text"], input[type="email"] {
+    width: 135px;    
+}
+
+input[type="reset"] {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 310px;
+    height: 55px;
+    color: rgb(59,89,151);
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 465px;
+    height: 55px;
+    color: rgb(59,89,151);
+    font-size: 30px;
+}

@@ -1,0 +1,73 @@
+td {
+   text-align: center;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table table, table table td {
+    border-spacing: 0px;
+    margin: 0px;
+    width: 100%;
+    border-style: none;
+}
+
+#beer button {
+    width: 236.5px;
+}
+
+#game button,#google button, #github button {
+    width: 154px;
+}
+
+#wc button, #food button, #facebook button, #gmail button, #youtube button, #num button {
+    width: 73px;
+}
+
+td table button {
+    margin: 0px;
+    width: 73px;
+    height: 40px;
+    font-size: 13px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+td button {
+    height: 78px;
+    color: blue;
+}
+
+#facebook, #gmail, #youtube, #num {
+    width: 25%;
+}
+
+#softwareUniversity button {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#facebook, #gmail, #youtube, #num, #google, #softwareUniversity, #github, #food, #game, #beer,
+    #wc {
+    height: 80px;
+}
+
+#food button, #game button {
+    height: 85px;
+}
+
+#food, #game {
+    height: 88px;
+}
+#socialLife, #sleep {
+    margin: 0px;
+    height: 40px;
+}
+
+#beer button {
+    text-align: right;
+    font-size: 20px;
+}
